@@ -1,4 +1,15 @@
-.forecastDays {
+.WeatherForecast {
   text-align: center;
-  font-size: 12px;
+}
+.WeatherForecast canvas {
+  height: 50px;
+  width: 50px;
+  margin: 5px auto;
+  display: inline-block;
+}
+.WeatherForecast-temperature-min {
+  margin-left: 5px;
+}
+.WeatherForecast-temperatures {
+  margin-bottom: 20px;
 }

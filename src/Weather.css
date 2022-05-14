@@ -25,23 +25,20 @@
 }
 .weather-image-temp {
   padding-left: 30px;
-  padding-top: -10px;
+  padding-top: 10px;
 }
-.weather-image {
-  margin-top: -30px;
-  height: 60px;
-  width: 60px;
-}
+
 .Weather .temp {
-  padding-left: 10px;
+  padding-left: 40px;
+  padding-top: -20px;
   margin-top: 5px;
-  font-size: 60px;
+  font-size: 64px;
   font-weight: lighter;
 }
 .unit {
   font-size: 14px;
   position: relative;
-  top: -34px;
+  top: -32px;
   margin-left: 0px;
   line-height: 1;
 }
@@ -55,17 +52,26 @@
 }
 .weather-info {
   text-align: left;
-  padding-top: 7px;
+  padding-top: 15px;
 }
 ul {
   list-style: none;
 }
 .place-info {
-  margin-top: 7px;
+  margin-top: 15px;
   text-align: right;
   padding-right: 35px;
 }
 .loading {
   margin: 30px auto;
   text-align: center;
+}
+.Weather canvas {
+  margin-right: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
 }
